@@ -1,6 +1,3 @@
-Here's an improved version of the README, incorporating your provided HTML elements and ensuring clarity and professionalism:
-
-```markdown
 <p align="center">
   <a href="https://www.barkprotocol.com">
     <picture>
