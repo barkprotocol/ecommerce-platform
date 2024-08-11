@@ -42,6 +42,7 @@
     "medusa-interfaces": "1.3.10",
     "medusa-payment-manual": "1.0.25",
     "medusa-payment-stripe": "6.0.11",
+    "medusa-payment-paypal": "^6.0.3",
     "medusa-plugin-category-images": "^1.0.17",
     "medusa-plugin-variant-images": "^1.0.5",
     "prism-react-renderer": "^2.3.1",
