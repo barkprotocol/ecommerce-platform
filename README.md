@@ -9,7 +9,7 @@
 </p>
 
 <h1 align="center">
-  BARK: A Headless eCommerce Platform
+  BARK: A Headless e-Commerce Platform
 </h1>
 
 <h4 align="center">
@@ -43,7 +43,7 @@ The BARK eCommerce platform is built on the robust MedusaJS framework, providing
 
 - **Headless Architecture:** A decoupled front-end and back-end structure for maximum flexibility and customization, allowing seamless integration with various front-end frameworks.
 - **Solana Blockchain Support:** Leverage Solana's high-speed and low-cost transaction capabilities for efficient payment processing, ensuring quick and secure transactions.
-- **USDC Payment Gateway:** Utilize USDC stablecoin to minimize currency volatility and ensure stable transactions, offering a reliable payment method for customers.
+- **Solana Payment Gateway & Plugin:** Utilize SOL, BARK, and USDC stablecoin to minimize currency volatility and ensure stable transactions, offering a reliable payment method for customers.
 - **Customizable and Scalable:** Adapt the platform to fit your specific business requirements and scale effortlessly as you grow, providing a tailored solution for various industries.
 - **Decentralized Solutions:** Enhance security and transparency through the power of blockchain technology, providing peace of mind for you and your customers by ensuring data integrity and protection.
 
@@ -56,7 +56,7 @@ The BARK eCommerce platform is built on the robust MedusaJS framework, providing
   - Search with Algolia / MeiliSearch
   - Product Collections
   - Cart
-  - Checkout with PayPal and Stripe
+  - Checkout with PayPal, Solana Pay, and Stripe
   - User Accounts
   - Order Details
 
@@ -100,7 +100,14 @@ This folder includes the back-end logic and API handling. It powers the headless
 - `database/`: PostgreSQL configuration and migration files.
 - `config/`: API keys and environment configuration files.
 
-## Getting Started Medusajs
+### 3. Web3 Payment Gateway
+
+- **BARK Payment Plugin**:
+  - **Seamless Integration**: Easily integrates with your existing MedusaJS setup to enable Web3 payments.
+  - **Multi-Currency Support**: Accept payments in SOL, BARK, and USDC stablecoin, providing customers with flexible payment options.
+  - **Low Transaction Fees**: Leverage the low-cost transaction capabilities of the Solana blockchain for economical payment processing.
+
+## Getting Started
 
 Visit the [Quickstart Guide](https://docs.medusajs.com/create-medusa-app) to set up a server.
 
