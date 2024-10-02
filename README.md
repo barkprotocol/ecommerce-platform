@@ -17,12 +17,13 @@
   <a href="https://www.barkprotocol.com">Website</a>
 </h4>
 
-BARK | Commerce is an innovative, headless eCommerce platform that leverages the power of MedusaJS, Solana blockchain, and USDC stablecoin. Designed for modern businesses, BARK offers a decentralized, scalable, and flexible solution for all your eCommerce needs. The platform integrates seamlessly with modern technologies to provide a robust, customizable, and future-proof solution for online retailers. With its decentralized structure and powerful integrations, BARK ensures your business stays ahead in the ever-evolving digital marketplace.
+BARK | Commerce is an innovative, headless e-Commerce platform that leverages the power of MedusaJS, Solana blockchain, and USDC stablecoin. Designed for modern businesses, BARK Protocol offers a decentralized, scalable, and flexible solution for all your eCommerce needs. The platform integrates seamlessly with modern technologies to provide a robust, customizable, and future-proof solution for online retailers. With its decentralized structure and powerful integrations, BARK ensures your business stays ahead in the ever-evolving digital marketplace.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Configuration](#configuration)
@@ -46,6 +47,57 @@ The BARK eCommerce platform is built on the robust MedusaJS framework, providing
 - **Customizable and Scalable:** Adapt the platform to fit your specific business requirements and scale effortlessly as you grow, providing a tailored solution for various industries.
 - **Decentralized Solutions:** Enhance security and transparency through the power of blockchain technology, providing peace of mind for you and your customers by ensuring data integrity and protection.
 
+Features include:
+
+- Full e-commerce support:
+  - Product Detail Page
+  - Product Overview Page
+  - Search with Algolia / MeiliSearch
+  - Product Collections
+  - Cart
+  - Checkout with PayPal and Stripe
+  - User Accounts
+  - Order Details
+- Full Next.js 14 support:
+  - App Router
+  - Next fetching/caching
+  - Server Components
+  - Server Actions
+  - Streaming
+  - Static Pre-Rendering
+
+## Project Structure
+
+The project is divided into two main folders:
+
+### 1. **Storefront**
+
+This folder contains the front-end components of the platform. Built with Next.js, it manages the user-facing storefront where customers can browse products, add them to the cart, and complete transactions.
+
+- **Next.js:** For server-side rendering and static site generation.
+- **Tailwind CSS:** For styling and responsive design.
+- **State Management:** Uses React context for handling state.
+  
+**Storefront directory structure:**
+- `pages/`: All Next.js routes and components.
+- `components/`: Reusable UI components for the storefront.
+- `lib/`: Utilities and helper functions for front-end operations.
+- `styles/`: Tailwind configuration and custom styles.
+
+### 2. **Backend**
+
+This folder includes the back-end logic and API handling. It powers the headless architecture of BARK, connecting to MedusaJS, Solana, and USDC.
+
+- **MedusaJS:** For the core eCommerce functionality.
+- **PostgreSQL:** The database used for storing product data and order details.
+- **Solana & USDC Integrations:** Handles blockchain payments and transactions.
+
+**Backend directory structure:**
+- `server/`: The core back-end logic, including APIs.
+- `services/`: MedusaJS services that manage the business logic.
+- `database/`: PostgreSQL configuration and migration files.
+- `config/`: API keys and environment configuration files.
+
 ## Getting Started
 
 Visit the [Quickstart Guide](https://docs.medusajs.com/create-medusa-app) to set up a server.
@@ -63,7 +115,7 @@ To get your development environment ready and start using BARK, follow these ste
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/barkprotocol/ecommerce-platform.git
+   git clone https://github.com/barkprotocol/e-commerce-platform.git
    cd ecommerce-platform
    ```
 
@@ -76,7 +128,7 @@ To get your development environment ready and start using BARK, follow these ste
    or
 
    ```bash
-   npm install
+   pnpm install
    ```
 
 3. **Set Up the Database:**
@@ -110,7 +162,7 @@ yarn start
 or
 
 ```bash
-npm start
+pnpm start
 ```
 
 This will launch the server, and you can access your eCommerce platform locally at `http://localhost:YOUR_PORT`.
