@@ -47,9 +47,10 @@ The BARK eCommerce platform is built on the robust MedusaJS framework, providing
 - **Customizable and Scalable:** Adapt the platform to fit your specific business requirements and scale effortlessly as you grow, providing a tailored solution for various industries.
 - **Decentralized Solutions:** Enhance security and transparency through the power of blockchain technology, providing peace of mind for you and your customers by ensuring data integrity and protection.
 
-Features include:
+### Features include:
 
-- Full e-commerce support:
+- **Full e-commerce support:**
+
   - Product Detail Page
   - Product Overview Page
   - Search with Algolia / MeiliSearch
@@ -58,7 +59,8 @@ Features include:
   - Checkout with PayPal and Stripe
   - User Accounts
   - Order Details
-- Full Next.js 14 support:
+
+- **Full Next.js 14 support:**
   - App Router
   - Next fetching/caching
   - Server Components
@@ -98,11 +100,11 @@ This folder includes the back-end logic and API handling. It powers the headless
 - `database/`: PostgreSQL configuration and migration files.
 - `config/`: API keys and environment configuration files.
 
-## Getting Started
+## Getting Started Medusajs
 
 Visit the [Quickstart Guide](https://docs.medusajs.com/create-medusa-app) to set up a server.
 
-To get your development environment ready and start using BARK, follow these steps.
+To get your development environment ready and start using BARK Commerce, follow these steps.
 
 ### Prerequisites
 
@@ -116,7 +118,7 @@ To get your development environment ready and start using BARK, follow these ste
 
    ```bash
    git clone https://github.com/barkprotocol/e-commerce-platform.git
-   cd ecommerce-platform
+   cd backend
    ```
 
 2. **Install Dependencies:**
