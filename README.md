@@ -107,6 +107,14 @@ This folder includes the back-end logic and API handling. It powers the headless
   - **Multi-Currency Support**: Accept payments in SOL, BARK, and USDC stablecoin, providing customers with flexible payment options.
   - **Low Transaction Fees**: Leverage the low-cost transaction capabilities of the Solana blockchain for economical payment processing.
 
+**Payment Plugin Directory Structure:**
+- `src/`: Contains the source code for the payment plugin.
+  - `components/`: UI components related to payment processing.
+  - `services/`: Functions for handling payment transactions and interactions with the Solana blockchain.
+  - `utils/`: Utility functions for managing payment data and API interactions.
+  - `config/`: Configuration files for setting up the plugin and API keys.
+  - `index.ts`: Entry point for the payment plugin, exporting the main functionalities.
+
 ## Getting Started
 
 Visit the [Quickstart Guide](https://docs.medusajs.com/create-medusa-app) to set up a server.
