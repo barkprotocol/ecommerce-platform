@@ -15,10 +15,10 @@
 <h4 align="center">
   <a href="https://commerce-docs.barkprotocol.net">Documentation</a> | (Under construction)
   <a href="https://www.barkprotocol.com">Official Website</a>
-  <a href="https://">Plugins</a> | (Under construction)
+  <a href="https://github.com/barkprotocol/medusa--bark-payment-plugin/">We3 Payments Plugins</a> | (Under construction)
 </h4>
 
-BARK | Commerce is an innovative, headless e-Commerce platform Monorepo that leverages the power of MedusaJS, Solana blockchain, and USDC stablecoin. Designed for modern businesses, BARK Protocol offers a decentralized, scalable, and flexible solution for all your eCommerce needs. The platform integrates seamlessly with modern technologies to provide a robust, customizable, and future-proof solution for online retailers. With its decentralized structure and powerful integrations, BARK ensures your business stays ahead in the ever-evolving digital marketplace.
+BARK | Commerce is an innovative, headless e-Commerce platform that leverages the power of MedusaJS, Solana blockchain, and USDC stablecoin. Designed for modern businesses, BARK Protocol offers a decentralized, scalable, and flexible solution for all your eCommerce needs. The platform integrates seamlessly with modern technologies to provide a robust, customizable, and future-proof solution for online retailers. With its decentralized structure and powerful integrations, BARK ensures your business stays ahead in the ever-evolving digital marketplace.
 
 ## Table of Contents
 
