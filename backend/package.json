@@ -1,13 +1,14 @@
 {
   "name": "bark-commerce-default",
   "version": "0.0.1",
-  "description": "A starter for BARK Commerce projects.",
+  "description": "A starter for BARK e-Commerce projects.",
   "author": "Medusa (https://medusajs.com)",
   "license": "MIT",
   "keywords": [
     "sqlite",
     "postgres",
     "typescript",
+    "bark",
     "ecommerce",
     "headless",
     "medusa"
@@ -25,15 +26,18 @@
     "dev": "cross-env npm run build:server && medusa develop"
   },
   "dependencies": {
-    "@medusajs/admin-ui": "2.1.18",
     "@medusajs/admin": "^7.1.16",
+    "@medusajs/admin-ui": "2.1.18",
     "@medusajs/cache-inmemory": "1.8.11",
     "@medusajs/cache-redis": "^1.9.2",
     "@medusajs/event-bus-local": "1.9.9",
     "@medusajs/event-bus-redis": "^1.8.14",
     "@medusajs/file-local": "1.0.4",
     "@medusajs/medusa": "^1.20.9",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/web3.js": "^1.95.3",
     "@tanstack/react-query": "4.22.0",
+    "axios": "^1.7.7",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "16.3.1",
@@ -42,6 +46,7 @@
     "medusa-interfaces": "1.3.10",
     "medusa-payment-manual": "1.0.25",
     "medusa-payment-stripe": "6.0.11",
+    "medusa-source-shopify": "^1.2.10",
     "prism-react-renderer": "^2.0.4",
     "typeorm": "0.3.16"
   },
@@ -62,7 +67,7 @@
     "rimraf": "^3.0.2",
     "ts-jest": "^27.0.7",
     "ts-loader": "^9.2.6",
-    "typescript": "^4.5.2"
+    "typescript": "^5.6.2"
   },
   "jest": {
     "globals": {
