@@ -2,10 +2,12 @@
   "name": "storefront",
   "version": "1.0.0",
   "private": true,
-  "author": "",
+  "author": "BARK Protocol",
   "description": "BARK Storefront to be used with Medusa server",
   "keywords": [
-    "bark-storefront"
+    "bark-storefront",
+    "storefront",
+    "medusajs"
   ],
   "scripts": {
     "dev": "next dev -p 8000",
