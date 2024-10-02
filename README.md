@@ -55,10 +55,12 @@ The BARK eCommerce platform is built on the robust MedusaJS framework, providing
 
   - Product Detail Page
   - Product Overview Page
+  - QR code payments features
   - Search with Algolia / MeiliSearch
   - Product Collections
   - Cart
   - Checkout with PayPal, Solana Pay, and Stripe
+  - Web3 payment gateways
   - User Accounts
   - Order Details
 
@@ -163,6 +165,7 @@ To get your development environment ready and start using BARK Commerce, follow 
    ```
    DATABASE_URL=postgresql://username:password@host:port/database
    SOLANA_API_KEY=your_solana_api_key
+   BARK_PAY_API_KEY=your_bark_pay_api_key
    USDC_API_KEY=your_usdc_api_key  # Circle API key
    ```
 
@@ -191,6 +194,10 @@ This will launch the server, and you can access your eCommerce platform locally 
 ### Solana Integration
 
 BARK utilizes the Solana blockchain to provide fast and cost-effective transactions. Make sure your Solana API key is correctly configured in your `.env` file. For more information, refer to the [Solana documentation](https://docs.solanalabs.com/).
+
+### BARK Integration
+
+The BARK payment gateway enables BARK token transactions, reducing volatility risks. Ensure your API configuration is correct in the `.env` file. More details can be found in the [BARK Protocol documentation](https://).
 
 ### USDC Integration
 
