@@ -9,15 +9,16 @@
 </p>
 
 <h1 align="center">
-  BARK: A Headless e-Commerce Platform
+  BARK: A Headless e-Commerce Platform Monorepo
 </h1>
 
 <h4 align="center">
-  <a href="https://ecommerce-docs.barkprotocol">Documentation</a> |
-  <a href="https://www.barkprotocol.com">Website</a>
+  <a href="https://commerce-docs.barkprotocol.net">Documentation</a> | (Under construction)
+  <a href="https://www.barkprotocol.com">Official Website</a>
+  <a href="https://">Plugins</a> | (Under construction)
 </h4>
 
-BARK | Commerce is an innovative, headless e-Commerce platform that leverages the power of MedusaJS, Solana blockchain, and USDC stablecoin. Designed for modern businesses, BARK Protocol offers a decentralized, scalable, and flexible solution for all your eCommerce needs. The platform integrates seamlessly with modern technologies to provide a robust, customizable, and future-proof solution for online retailers. With its decentralized structure and powerful integrations, BARK ensures your business stays ahead in the ever-evolving digital marketplace.
+BARK | Commerce is an innovative, headless e-Commerce platform Monorepo that leverages the power of MedusaJS, Solana blockchain, and USDC stablecoin. Designed for modern businesses, BARK Protocol offers a decentralized, scalable, and flexible solution for all your eCommerce needs. The platform integrates seamlessly with modern technologies to provide a robust, customizable, and future-proof solution for online retailers. With its decentralized structure and powerful integrations, BARK ensures your business stays ahead in the ever-evolving digital marketplace.
 
 ## Table of Contents
 
@@ -30,6 +31,7 @@ BARK | Commerce is an innovative, headless e-Commerce platform that leverages th
 - [Usage](#usage)
 - [Integration Details](#integration-details)
   - [Solana Integration](#solana-integration)
+  - [BARK Integration](#solana-integration)
   - [USDC Integration](#usdc-integration)
 - [References](#references)
 - [Contributing](#contributing)
@@ -108,7 +110,7 @@ This folder includes the back-end logic and API handling. It powers the headless
   - **Low Transaction Fees**: Leverage the low-cost transaction capabilities of the Solana blockchain for economical payment processing.
 
 **Payment Plugin Directory Structure:**
-- `src/`: Contains the source code for the payment plugin.
+  - `src/`: Contains the source code for the web3 payment plugin.
   - `components/`: UI components related to payment processing.
   - `services/`: Functions for handling payment transactions and interactions with the Solana blockchain.
   - `utils/`: Utility functions for managing payment data and API interactions.
@@ -123,7 +125,7 @@ To get your development environment ready and start using BARK Commerce, follow 
 
 ### Prerequisites
 
-- **Node.js:** v14.x or later
+- **Node.js:** v18.x or later
 - **PostgreSQL:** A reliable database solution for storing application data
 - **Yarn or npm:** Your preferred package manager
 
@@ -158,7 +160,7 @@ To get your development environment ready and start using BARK Commerce, follow 
 
    Create a `.env` file and configure it with your database and API keys:
 
-   ```plaintext
+   ```
    DATABASE_URL=postgresql://username:password@host:port/database
    SOLANA_API_KEY=your_solana_api_key
    USDC_API_KEY=your_usdc_api_key  # Circle API key
@@ -199,6 +201,7 @@ The USDC payment gateway enables stablecoin transactions, reducing volatility ri
 - [MedusaJS Documentation](https://docs.medusajs.com/development/overview)
 - [Circle Documentation](https://circle.com/en/)
 - [Solana Documentation](https://docs.solanalabs.com/)
+- [Solana Pay Documentation](https://solanapay.com/)
 
 ## Contributing
 
